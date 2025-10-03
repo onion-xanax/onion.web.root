@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 # Supabase Configuration
 SUPABASE_URL = "https://gqitmhktxmktggjlkjfa.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdxaXRtaGt0eG1rdGdnamxramZhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkzODc4OTYsImV4cCI6MjA3NDk2Mzg5Nn0.oeQuzD2aBDkCROi5Dn2sN0FsziHvgZRvjEz2_TynAkY"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh4Ynd6b2l4Z3hna2pnbWlncWhjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkzOTQzNTUsImV4cCI6MjA3NDk3MDM1NX0.kWHi5lKpDxtZXFslHCGJ53jVDkc5e-0IKKHhJAswDDE"
 
 # Flask Secret Key
 app.secret_key = "4f7d9a2b8c1e6f3a9d2b5c8e1f7a3d6b9c2e5f8a1d4b7c0e3f6a9d2b5c8e1f7a"
@@ -1171,6 +1171,7 @@ if __name__ == '__main__':
     
 
     app.run(debug=True, host='0.0.0.0', port=5000)
+
 
 
 
